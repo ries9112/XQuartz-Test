@@ -17,4 +17,4 @@ jobs:
       - name: Install Packages
         run: |-
           Rscript -e "install.packages('devtools')"
-          Rscript -e "install.packages('rayshader')"
+          Rscript -e "devtools::install_github('tylermorganwall/rayshader')"
